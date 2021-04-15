@@ -38,6 +38,10 @@ const Header = () => {
     {
       id: 5,
       title: "Contact"
+    },
+    {
+      id: 6,
+      title: "Video"
     }
   ]);
   return (

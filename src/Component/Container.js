@@ -15,6 +15,7 @@ import {
   scrollSpy,
   scroller
 } from "react-scroll";
+import Video from "./video";
 
 const Container = () => {
   return (
@@ -32,6 +33,9 @@ const Container = () => {
         </Element>
         <Element name="Projects">
           <Projects/>
+        </Element>
+        <Element name="Video">
+          <Video />
         </Element>
         <Element name="Contact">
           <Contact/>
