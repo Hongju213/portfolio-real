@@ -1,0 +1,117 @@
+.sks {
+  width: 100%;
+  background: rgba(236, 240, 241,1.0);
+}
+
+.sks__container {
+  margin: 0 auto;
+  padding: 80px 0;
+  max-width: 1200px;
+  /* height: auto; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sks .sks__title {
+  font-weight: bold;
+  width: 200px;
+  height: 70px;
+  border-radius: 30px 0 30px 0;
+  font-size: 2.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration-line: underline;
+  text-decoration-color: #ff7675;
+}
+
+.sks .sks__set {
+  width: 100%;
+  /* height: 600px; */
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.sks .sk {
+  width: 400px;
+  height: 500px;
+  border-radius: 50px;
+  margin: 30px 70px;
+  background-repeat: no-repeat;
+  background-size: 400px 500px;
+  box-shadow: inset 4px 4px 20px rgba(150, 150, 150, 1),
+  10px 10px 30px rgba(150, 150, 150, 1);
+}
+
+.sks .sk:hover {
+  animation: skill 0.8s forwards;
+}
+
+@keyframes skill {
+  0% {
+    transform: none;
+  } 100% {
+    transform: scale(1.5);
+  }
+}
+
+.sk .sk__hoverbox {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  transition: 1s;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: rgb(0, 0, 0);
+}
+
+.sk .sk__level {
+  font-weight: bold;
+  height: 25%;
+  font-size: 1.0rem;
+  display: none;
+}
+.sk .sk__hoverbox:hover {
+  background: rgba(167, 167, 167, 0.2);
+}
+
+.sk .sk__hoverbox:hover .sk__level {
+  display: block;
+}
+
+.sks .sks__HTML {
+  background-image: url("https://user-images.githubusercontent.com/54468963/114714417-10930a00-9d6d-11eb-9d73-be89a128cc40.png");
+}
+
+.sks .sks__CSS {
+  background-image: url("https://user-images.githubusercontent.com/54468963/114714419-11c43700-9d6d-11eb-91fa-c4f0b2099ba1.png");
+}
+
+.sks .sks__JavaScript {
+  background-image: url("https://user-images.githubusercontent.com/54468963/114714423-11c43700-9d6d-11eb-802d-fd76e782a305.png");
+}
+
+.sks .sks__React {
+  background-image: url("https://user-images.githubusercontent.com/54468963/114714428-125ccd80-9d6d-11eb-9c24-2c3f8c5308ab.png");
+}
+
+.sks .sks__C {
+  background-image: url("https://user-images.githubusercontent.com/54468963/114714434-125ccd80-9d6d-11eb-853f-168846255fa3.png");
+}
+
+.sks .sks__SQL {
+  background-image: url("https://user-images.githubusercontent.com/54468963/114714435-12f56400-9d6d-11eb-9afd-628d421582fe.png");
+}
+.sks .sks__NodeJS {
+  background-image: url("https://user-images.githubusercontent.com/54468963/114714438-12f56400-9d6d-11eb-9def-0bc58af7cddd.png");
+}
+.sks .sks__MongoDB {
+  background-image: url("https://user-images.githubusercontent.com/54468963/114714439-138dfa80-9d6d-11eb-9197-a10b7d476ad6.png");
+}
+
