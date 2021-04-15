@@ -9,7 +9,7 @@ const Projects = () => {
     {
       id: 1,
       title: "봉사활동을 함",
-      url: "https://www.naver.com/",
+      // url: "https://www.naver.com/",
       image:
         "https://user-images.githubusercontent.com/54468963/114719974-8ea5df80-9d72-11eb-9ab0-1565077bdc38.jpg",
       uselang: "장소: !@#$",
@@ -19,7 +19,7 @@ const Projects = () => {
     {
       id: 2,
       title: "기부활동을 함",
-      url: "https://www.naver.com",
+      // url: "https://www.naver.com",
       image:
         "https://user-images.githubusercontent.com/54468963/114720815-4f2bc300-9d73-11eb-8d28-050738b20ae8.jpg",
       uselang: "장소: 어디",
@@ -37,7 +37,7 @@ const Projects = () => {
               className={`projects__list-${project.id} project`}
               key={project.id}
             >
-              <a className="project__link" target="_blank" href={project.url}>
+              <a className="project__link" target="_blank">
                 <img
                   className="project__img"
                   src={project.image}
