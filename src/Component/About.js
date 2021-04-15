@@ -11,7 +11,7 @@ const About = () => {
   const [info, setInfo] = useState([
     {
       id: 1,
-      text: "Yu Hyun Gim",
+      text: "Yu Hyeon Gim",
       flex: true
     },
     {
