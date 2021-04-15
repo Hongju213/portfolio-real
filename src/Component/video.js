@@ -11,7 +11,6 @@ const Video = () => {
         <div className="about">
       <div className="about__container">
         <div className="about__title">Video</div>
-            <h1> ??? </h1>
             <ReactPlayer
             url='https://youtu.be/6F-wqIre9Tw' controls width={'100%'} height={'600px'} />
       </div>

@@ -37,11 +37,11 @@ const Header = () => {
     },
     {
       id: 5,
-      title: "Contact"
+      title: "Video"
     },
     {
       id: 6,
-      title: "Video"
+      title: "Contact"
     }
   ]);
   return (

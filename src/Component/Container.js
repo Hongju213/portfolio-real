@@ -24,7 +24,7 @@ const Container = () => {
         <Header/>
       </Element>
       <div className="body__container">
-        <Mainfrom title={'Yu Hyun Gim'} />
+        <Mainfrom title={'Yu Hyeon Gim'} />
         <Element name="About">
           <About/>
         </Element>
