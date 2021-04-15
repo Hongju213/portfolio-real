@@ -8,13 +8,15 @@ const Video = () => {
 
     return (
         <>
-        <div className="about">
-      <div className="about__container">
-        <div className="about__title">Video</div>
-            <ReactPlayer
-            url='https://youtu.be/6F-wqIre9Tw' controls width={'100%'} height={'600px'} />
-      </div>
-    </div>
+        <div className="projects">
+            <div className="projects__container">
+                <div className="projects__title">Video</div>
+                <div className="video">
+                    <ReactPlayer height={'600px'} width={'100%'} 
+                    url='https://youtu.be/6F-wqIre9Tw' controls />
+                </div>
+            </div>
+        </div>
         </>
     );
 };

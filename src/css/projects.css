@@ -20,6 +20,14 @@
   text-decoration-color: #ff7675;
 }
 
+.projects .video {
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
 .projects .project {
   width: 100%;
   height: 350px;
